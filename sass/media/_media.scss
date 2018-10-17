@@ -14,12 +14,17 @@ object {
 	max-width: 100%;
 }
 
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
 /*--------------------------------------------------------------
-12.1 Captions
+## Captions
 --------------------------------------------------------------*/
 @import "captions";
 
 /*--------------------------------------------------------------
-12.2 Galleries
+## Galleries
 --------------------------------------------------------------*/
 @import "galleries";
